@@ -10,8 +10,8 @@ features = ['market_cap', 'pe_ratio', 'ps_ratio', 'price_to_book_value',
             'ev_ebitda', 'ev_ebit', 'ev_revenues', 'ev_free_cash_flow',
             'eps', 'ebitda', 'revenues_growth', 'profit_margin', 'cash_on_hand',
             'price_to_cash_flow_ttm', 'peg_ratio', 'ev_assets']
-4). Call GetHistoricalFundamentalData with stock price, start date, end date, and feature(s) to get data.
 ```
+4). Call GetHistoricalFundamentalData with stock price, start date, end date, and feature(s) to get data.
 ## Note
 1) Not all features are time-consistent (i.g. some features are weekly updated, some features are quarterly updated, etc.)  
 2) If the function doesn't work appropriately (i.g. return Nan values or raise an exception), try to update your 'cookie' in the 'header'.
