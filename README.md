@@ -15,7 +15,7 @@ features = ['market_cap', 'pe_ratio', 'ps_ratio', 'price_to_book_value',
 ## Note
 1) Not all features are time-consistent (i.g. some features are weekly updated, some features are quarterly updated, etc.)  
 2) If the function doesn't work appropriately (i.g. return Nan values or raise an exception), try to update your 'cookie' in the 'header'.
-3) The function traces the data provided by the YCharts.com, and the return data is consistent with the data on the website.
+3) The function traces the data provided by the YCharts.com, and the data returned is consistent with the website.
 ## Examp
 ```python
 stock = 'NFLX'
